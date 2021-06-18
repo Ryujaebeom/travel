@@ -1,0 +1,79 @@
+/* style.css*/
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: '나눔고딕';
+}
+body {
+    position: relative;
+}
+.container {
+    width: 1200px;
+    height: 1080px;
+}
+header {
+    width: 1200px;
+    height: 117px;
+    position: relative;
+    /*background: rgb(81, 61, 61);*/
+}
+header > h1 > img {
+    margin-top: 15px;
+}
+.box1 {
+    width: 448px;
+    height: 44px;
+    /*background: #ccc;*/
+    position: absolute;
+    right: 20px;
+    top: 37px;
+    box-shadow: 1px 1px 2px;
+    border-radius: 2px;
+}
+.box1 > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+.box1 > ul > li > a {
+    text-decoration: none;
+    color: #444;
+}
+.box2 {
+    width: 1200px;
+    height: 478px;
+}
+.box3 {
+    width: 350px;
+    height: 210px;
+    position: relative;
+    margin: 0 auto;
+}
+.con1 {
+    position: absolute;
+    right: 400px;
+    top: 58px;
+}
+.con2 {
+    position: absolute;
+    top: 58px;
+}
+.con3 {
+    position: absolute;
+    left:400px;
+    top: 58px;
+}
+.box4 {
+    width: 1200px;
+    height: 170px;
+    background-color: #C9C9C9;
+    position: absolute;
+    top: 910px;
+    text-align: center;
+}
+footer > h4 {
+    margin-top: 86px;
+    font-size: 14px;
+}
